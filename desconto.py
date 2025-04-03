@@ -1,7 +1,11 @@
 valor = float(input('digite o valor '))
 
 def calcula_desconto(valor):
-    print(valor * 0.95)
+    return valor * 0.95
+
+def aplica_desconto(desconto):
+     print(f'o preço com dsconto e R${desconto}')
 
 
-calcula_desconto(valor)
+desconto = calcula_desconto(valor)
+aplica_desconto(desconto)
