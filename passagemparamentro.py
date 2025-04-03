@@ -1,7 +1,7 @@
-nome = 'epailodas'
+nome =  input('digite o nome: ')
 
 
 def saudacao(nome):
     print(f'bom dia, {nome}')
 
-saudacao('joao')
+saudacao(nome)
